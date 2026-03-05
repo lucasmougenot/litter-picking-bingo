@@ -1,0 +1,12 @@
+# Ignore everything
+*
+# Un-ignore directories 
+!*/
+
+# Whitelist
+!.gitignore
+!index.html
+!style.css
+!bingo.js
+!items.json
+!images/*

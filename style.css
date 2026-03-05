@@ -1,0 +1,269 @@
+:root {
+  /* main header */
+  --main-header-color: #0a5f0f;
+  /* sub header, footer */
+  --sub-header-color: #558b2f;
+  /* buttons, marked cell bg */
+  --bg-dark-green: #2e7d32;
+  /* cell border */
+  --cell-border: #c5e1a5;
+  /* cell border hover */
+  --cell-border-hover: #8bc34a;
+  /* shuffle button hover */
+  --shuffle-button-hover: #1b5e20;
+  /* reset button bg */
+  --reset-button-bg: #e8f5e9;
+  /* reset button border */
+  --reset-button-border: #a5d6a7;
+  /* reset button bg hover */
+  --reset-button-bg-hover: #c8e6c9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100dvh;
+  /*100% dynamic viewport height */
+  background: linear-gradient(135deg, var(--reset-button-bg) 0%, var(--reset-button-bg-hover) 50%, var(--reset-button-border) 100%);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 16px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+header h1 {
+  font-size: xxx-large;
+  color: var(--main-header-color);
+}
+
+header p {
+  color: var(--sub-header-color);
+  margin-top: 5px;
+}
+
+/* bingo card */
+
+.card-wrapper {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(46, 125, 50, 0.15);
+  padding: 20px;
+  max-width: 660px;
+  width: 100%;
+}
+
+.bingo-header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.bingo-letter {
+  background: var(--bg-dark-green);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 8px;
+}
+
+.bingo-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+}
+
+/* bingo card cells */
+
+.cell {
+  aspect-ratio: 1;
+  position: relative;
+  border: 2px solid var(--cell-border);
+  border-radius: 8px;
+  align-items: top;
+  justify-content: center;
+  text-align: center;
+  font-size: small;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 6px;
+  transition: all 0.1s ease;
+  user-select: none;
+}
+
+.cell .tile-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.cell .tile-label {
+  position: relative;
+  /* text bg for readability */
+  background: rgba(0, 100, 50, 0.5);
+  /* TODO: choose color*/
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  border-radius: 4px;
+}
+
+.cell:hover {
+  border-color: var(--cell-border-hover);
+  transform: scale(1.03);
+}
+
+.cell.marked {
+  border-color: var(--bg-dark-green);
+  transform: scale(1.03);
+}
+
+.cell.marked .tile-img {
+  transform: scale(1.03);
+  /* tint image to visualize marked cell */
+  filter: brightness(0.5) sepia(1) hue-rotate(90deg);
+}
+
+/* controls */
+
+.controls {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+button {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  user-select: none;
+}
+
+.btn-shuffle {
+  background: var(--bg-dark-green);
+  color: white;
+}
+
+.btn-shuffle:hover {
+  background: var(--shuffle-button-hover);
+  transform: translateY(-1px);
+}
+
+.btn-reset {
+  background: var(--reset-button-bg);
+  color: var(--bg-dark-green);
+  border: 2px solid var(--reset-button-border);
+}
+
+.btn-reset:hover {
+  background: var(--reset-button-bg-hover);
+  transform: translateY(-1px);
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  font-size: medium;
+  font-weight: bold;
+  color: var(--shuffle-button-hover);
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+/* hide the default checkbox visually but keep it accessible */
+.switch input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.track {
+  position: relative;
+  width: 48px;
+  height: 26px;
+  background: #ccc;
+  border-radius: 999px;
+  transition: background 0.2s;
+}
+
+.thumb {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+/* checked state */
+input:checked+.track {
+  background: var(--bg-dark-green);
+}
+
+input:checked+.track .thumb {
+  transform: translateX(22px);
+}
+
+/* focus ring for keyboard users */
+input:focus-visible+.track {
+  outline: 2px solid var(--bg-dark-green);
+  outline-offset: 2px;
+}
+
+/* win banner */
+
+.win-banner {
+  display: none;
+  margin-top: 20px;
+  background: linear-gradient(135deg, #ffd600, #ffab00);
+  color: black;
+  text-align: center;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: x-large;
+  font-weight: 800;
+  animation: pop 0.4s ease;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* footer */
+
+footer {
+  margin-top: 20px;
+  color: var(--sub-header-color);
+  font-size: small;
+}
