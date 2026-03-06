@@ -191,18 +191,20 @@ function addListeners() {
     const cell = document.getElementById("cell" + String(i));
     cell.onclick = () => toggleCell(i);
   }
-  // service worker for offline/caching
-  if ("serviceWorker" in navigator) {
-    window.addEventListener("load", () => {
-      navigator.serviceWorker.register(`/${REPO_NAME}/sw.js`, {
-        scope: `/${REPO_NAME}/`
-      });
-    });
-  }
 }
 
 // add listeners
 addListeners();
+
+// service worker for offline/caching
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register(`/${REPO_NAME}/sw.js`, {
+      scope: `/${REPO_NAME}/`
+    }).then(() => console.log("SW registered"))
+      .catch(e => console.error("SW failed", e));
+  });
+}
 
 // generate the bingo card
 generateCard();
