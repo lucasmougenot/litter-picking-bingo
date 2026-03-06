@@ -1,6 +1,6 @@
 const REPO_NAME = "litter-picking-bingo";
 // TODO: UPDATE CACHE ON EVERY PUSH!
-const CACHE = "LPB-2026-03-06-v4";
+const CACHE = "LPB-2026-03-06-v5";
 const ASSETS = [
     `/${REPO_NAME}/`,
     `/${REPO_NAME}/index.html`,
