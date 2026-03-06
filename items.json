@@ -1,202 +1,282 @@
 [
   {
     "label": "Dental Stick",
-    "src": "images/dental-stick.jpg",
-    "rarity": 0
+    "src": "images/dental-stick-140.webp",
+    "rarity": 0,
+    "srcset": "images/dental-stick-70.webp 70w, images/dental-stick-140.webp 140w, images/dental-stick-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Plastic bottle",
-    "src": "images/plastic-bottle.jpg",
-    "rarity": 1
+    "src": "images/plastic-bottle-140.webp",
+    "rarity": 1,
+    "srcset": "images/plastic-bottle-70.webp 70w, images/plastic-bottle-140.webp 140w, images/plastic-bottle-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Aluminium can",
-    "src": "images/aluminium-can.jpg",
-    "rarity": 1
+    "src": "images/aluminium-can-140.webp",
+    "rarity": 1,
+    "srcset": "images/aluminium-can-70.webp 70w, images/aluminium-can-140.webp 140w, images/aluminium-can-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Glass bottle",
-    "src": "images/glass-bottle.jpg",
-    "rarity": 0
+    "src": "images/glass-bottle-140.webp",
+    "rarity": 0,
+    "srcset": "images/glass-bottle-70.webp 70w, images/glass-bottle-140.webp 140w, images/glass-bottle-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Bottle cap",
-    "src": "images/bottle-cap.jpg",
-    "rarity": 0
+    "src": "images/bottle-cap-140.webp",
+    "rarity": 0,
+    "srcset": "images/bottle-cap-70.webp 70w, images/bottle-cap-140.webp 140w, images/bottle-cap-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Cigarette butt",
-    "src": "images/cigarette-butt.jpg",
-    "rarity": 0
+    "src": "images/cigarette-butt-140.webp",
+    "rarity": 0,
+    "srcset": "images/cigarette-butt-70.webp 70w, images/cigarette-butt-140.webp 140w, images/cigarette-butt-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Smoker special",
-    "src": "images/smoker-special.jpg",
-    "rarity": 1
+    "src": "images/smoker-special-140.webp",
+    "rarity": 1,
+    "srcset": "images/smoker-special-70.webp 70w, images/smoker-special-140.webp 140w, images/smoker-special-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Cigarette pack",
-    "src": "images/cigarette-pack.jpg",
-    "rarity": 0
+    "src": "images/cigarette-pack-140.webp",
+    "rarity": 0,
+    "srcset": "images/cigarette-pack-70.webp 70w, images/cigarette-pack-140.webp 140w, images/cigarette-pack-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Key",
-    "src": "images/key.jpg",
-    "rarity": 2
+    "src": "images/key-140.webp",
+    "rarity": 2,
+    "srcset": "images/key-70.webp 70w, images/key-140.webp 140w, images/key-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Coffee cup",
-    "src": "images/coffee-cup.jpg",
-    "rarity": 0
+    "src": "images/coffee-cup-140.webp",
+    "rarity": 0,
+    "srcset": "images/coffee-cup-70.webp 70w, images/coffee-cup-140.webp 140w, images/coffee-cup-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Plastic bag",
-    "src": "images/plastic-bag.jpg",
-    "rarity": 0
+    "src": "images/plastic-bag-140.webp",
+    "rarity": 0,
+    "srcset": "images/plastic-bag-70.webp 70w, images/plastic-bag-140.webp 140w, images/plastic-bag-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Dog poo bag",
-    "src": "images/dog-poo-bag.jpg",
-    "rarity": 1
+    "src": "images/dog-poo-bag-140.webp",
+    "rarity": 1,
+    "srcset": "images/dog-poo-bag-70.webp 70w, images/dog-poo-bag-140.webp 140w, images/dog-poo-bag-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Chewing gum",
-    "src": "images/chewing-gum.jpg",
-    "rarity": 0
+    "src": "images/chewing-gum-140.webp",
+    "rarity": 0,
+    "srcset": "images/chewing-gum-70.webp 70w, images/chewing-gum-140.webp 140w, images/chewing-gum-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Sweet wrapper",
-    "src": "images/sweet-wrapper.jpg",
-    "rarity": 0
+    "src": "images/sweet-wrapper-140.webp",
+    "rarity": 0,
+    "srcset": "images/sweet-wrapper-70.webp 70w, images/sweet-wrapper-140.webp 140w, images/sweet-wrapper-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Aluminium foil",
-    "src": "images/aluminium-foil.jpg",
-    "rarity": 0
+    "src": "images/aluminium-foil-140.webp",
+    "rarity": 0,
+    "srcset": "images/aluminium-foil-70.webp 70w, images/aluminium-foil-140.webp 140w, images/aluminium-foil-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Food wrapper",
-    "src": "images/food-wrapper.jpg",
-    "rarity": 0
+    "src": "images/food-wrapper-140.webp",
+    "rarity": 0,
+    "srcset": "images/food-wrapper-70.webp 70w, images/food-wrapper-140.webp 140w, images/food-wrapper-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Receipt",
-    "src": "images/receipt.jpg",
-    "rarity": 0
+    "src": "images/receipt-140.webp",
+    "rarity": 0,
+    "srcset": "images/receipt-70.webp 70w, images/receipt-140.webp 140w, images/receipt-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Juice carton",
-    "src": "images/juice-carton.jpg",
-    "rarity": 0
+    "src": "images/juice-carton-140.webp",
+    "rarity": 0,
+    "srcset": "images/juice-carton-70.webp 70w, images/juice-carton-140.webp 140w, images/juice-carton-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Cardboard box",
-    "src": "images/cardboard-box.jpg",
-    "rarity": 0
+    "src": "images/cardboard-box-140.webp",
+    "rarity": 0,
+    "srcset": "images/cardboard-box-70.webp 70w, images/cardboard-box-140.webp 140w, images/cardboard-box-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Clothes",
-    "src": "images/clothes.jpg",
-    "rarity": 1
+    "src": "images/clothes-140.webp",
+    "rarity": 1,
+    "srcset": "images/clothes-70.webp 70w, images/clothes-140.webp 140w, images/clothes-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Single glove",
-    "src": "images/glove.jpg",
-    "rarity": 1
+    "src": "images/glove-140.webp",
+    "rarity": 1,
+    "srcset": "images/glove-70.webp 70w, images/glove-140.webp 140w, images/glove-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Rubber glove",
-    "src": "images/rubber-glove.jpg",
-    "rarity": 1
+    "src": "images/rubber-glove-140.webp",
+    "rarity": 1,
+    "srcset": "images/rubber-glove-70.webp 70w, images/rubber-glove-140.webp 140w, images/rubber-glove-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Face mask",
-    "src": "images/face-mask.jpg",
-    "rarity": 1
+    "src": "images/face-mask-140.webp",
+    "rarity": 1,
+    "srcset": "images/face-mask-70.webp 70w, images/face-mask-140.webp 140w, images/face-mask-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Condom wrap",
-    "src": "images/condom-wrap.jpg",
-    "rarity": 2
+    "src": "images/condom-wrap-140.webp",
+    "rarity": 2,
+    "srcset": "images/condom-wrap-70.webp 70w, images/condom-wrap-140.webp 140w, images/condom-wrap-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Tissue",
-    "src": "images/tissue.jpg",
-    "rarity": 0
+    "src": "images/tissue-140.webp",
+    "rarity": 0,
+    "srcset": "images/tissue-70.webp 70w, images/tissue-140.webp 140w, images/tissue-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Cutlery",
-    "src": "images/cutlery.jpg",
-    "rarity": 1
+    "src": "images/cutlery-140.webp",
+    "rarity": 1,
+    "srcset": "images/cutlery-70.webp 70w, images/cutlery-140.webp 140w, images/cutlery-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Balloon",
-    "src": "images/balloon.jpg",
-    "rarity": 2
+    "src": "images/balloon-140.webp",
+    "rarity": 2,
+    "srcset": "images/balloon-70.webp 70w, images/balloon-140.webp 140w, images/balloon-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Cable tie",
-    "src": "images/cable-tie.jpg",
-    "rarity": 0
+    "src": "images/cable-tie-140.webp",
+    "rarity": 0,
+    "srcset": "images/cable-tie-70.webp 70w, images/cable-tie-140.webp 140w, images/cable-tie-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Shopping bag",
-    "src": "images/shopping-bag.jpg",
-    "rarity": 1
+    "src": "images/shopping-bag-140.webp",
+    "rarity": 1,
+    "srcset": "images/shopping-bag-70.webp 70w, images/shopping-bag-140.webp 140w, images/shopping-bag-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Teabag",
-    "src": "images/teabag.jpg",
-    "rarity": 1
+    "src": "images/teabag-140.webp",
+    "rarity": 1,
+    "srcset": "images/teabag-70.webp 70w, images/teabag-140.webp 140w, images/teabag-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Broken glass",
-    "src": "images/broken-glass.jpg",
-    "rarity": 0
+    "src": "images/broken-glass-140.webp",
+    "rarity": 0,
+    "srcset": "images/broken-glass-70.webp 70w, images/broken-glass-140.webp 140w, images/broken-glass-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Money",
-    "src": "images/money.jpg",
-    "rarity": 2
+    "src": "images/money-140.webp",
+    "rarity": 2,
+    "srcset": "images/money-70.webp 70w, images/money-140.webp 140w, images/money-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "'Thank you'",
-    "src": "images/thanks.jpg",
-    "rarity": 1
+    "src": "images/thanks-140.webp",
+    "rarity": 1,
+    "srcset": "images/thanks-70.webp 70w, images/thanks-140.webp 140w, images/thanks-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Car waste",
-    "src": "images/car-waste.jpg",
-    "rarity": 1
+    "src": "images/car-waste-140.webp",
+    "rarity": 1,
+    "srcset": "images/car-waste-70.webp 70w, images/car-waste-140.webp 140w, images/car-waste-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Vape",
-    "src": "images/vape.jpg",
-    "rarity": 1
+    "src": "images/vape-140.webp",
+    "rarity": 1,
+    "srcset": "images/vape-70.webp 70w, images/vape-140.webp 140w, images/vape-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Capri sun",
-    "src": "images/capri-sun.jpg",
-    "rarity": 0
+    "src": "images/capri-sun-140.webp",
+    "rarity": 0,
+    "srcset": "images/capri-sun-70.webp 70w, images/capri-sun-140.webp 140w, images/capri-sun-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Car buying card",
-    "src": "images/car-buying-card.jpg",
-    "rarity": 0
+    "src": "images/car-buying-card-140.webp",
+    "rarity": 0,
+    "srcset": "images/car-buying-card-70.webp 70w, images/car-buying-card-140.webp 140w, images/car-buying-card-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Laughing gas",
-    "src": "images/laughing-gas.jpg",
-    "rarity": 2
+    "src": "images/laughing-gas-140.webp",
+    "rarity": 2,
+    "srcset": "images/laughing-gas-70.webp 70w, images/laughing-gas-140.webp 140w, images/laughing-gas-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "Blank cartridge",
-    "src": "images/blank-cartridge.jpg",
-    "rarity": 1
+    "src": "images/blank-cartridge-140.webp",
+    "rarity": 1,
+    "srcset": "images/blank-cartridge-70.webp 70w, images/blank-cartridge-140.webp 140w, images/blank-cartridge-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   },
   {
     "label": "'Surprise' bag",
-    "src": "images/surprise-bag.jpg",
-    "rarity": 1
+    "src": "images/surprise-bag-140.webp",
+    "rarity": 1,
+    "srcset": "images/surprise-bag-70.webp 70w, images/surprise-bag-140.webp 140w, images/surprise-bag-280.webp 280w",
+    "sizes": "(max-width: 600px) 70px, 140px"
   }
 ]

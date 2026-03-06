@@ -167,6 +167,8 @@ function shuffleCells() {
       const img = cell.querySelector("img");
       img.src = item.src;
       img.alt = item.label;
+      img.srcset = item.srcset;
+      img.sizes = item.sizes;
     }
     // update label
     const label = cell.querySelector("span");
