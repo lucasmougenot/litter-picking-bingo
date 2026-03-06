@@ -1,202 +1,202 @@
 [
   {
     "label": "Dental Stick",
-    "img": "images/dental-stick.jpg",
+    "src": "images/dental-stick.jpg",
     "rarity": 0
   },
   {
     "label": "Plastic bottle",
-    "img": "images/plastic-bottle.jpg",
+    "src": "images/plastic-bottle.jpg",
     "rarity": 1
   },
   {
     "label": "Aluminium can",
-    "img": "images/aluminium-can.jpg",
+    "src": "images/aluminium-can.jpg",
     "rarity": 1
   },
   {
     "label": "Glass bottle",
-    "img": "images/glass-bottle.jpg",
+    "src": "images/glass-bottle.jpg",
     "rarity": 0
   },
   {
     "label": "Bottle cap",
-    "img": "images/bottle-cap.jpg",
+    "src": "images/bottle-cap.jpg",
     "rarity": 0
   },
   {
     "label": "Cigarette butt",
-    "img": "images/cigarette-butt.jpg",
+    "src": "images/cigarette-butt.jpg",
     "rarity": 0
   },
   {
     "label": "Smoker special",
-    "img": "images/smoker-special.jpg",
+    "src": "images/smoker-special.jpg",
     "rarity": 1
   },
   {
     "label": "Cigarette pack",
-    "img": "images/cigarette-pack.jpg",
+    "src": "images/cigarette-pack.jpg",
     "rarity": 0
   },
   {
     "label": "Key",
-    "img": "images/key.jpg",
+    "src": "images/key.jpg",
     "rarity": 2
   },
   {
     "label": "Coffee cup",
-    "img": "images/coffee-cup.jpg",
+    "src": "images/coffee-cup.jpg",
     "rarity": 0
   },
   {
     "label": "Plastic bag",
-    "img": "images/plastic-bag.jpg",
+    "src": "images/plastic-bag.jpg",
     "rarity": 0
   },
   {
     "label": "Dog poo bag",
-    "img": "images/dog-poo-bag.jpg",
+    "src": "images/dog-poo-bag.jpg",
     "rarity": 1
   },
   {
     "label": "Chewing gum",
-    "img": "images/chewing-gum.jpg",
+    "src": "images/chewing-gum.jpg",
     "rarity": 0
   },
   {
     "label": "Sweet wrapper",
-    "img": "images/sweet-wrapper.jpg",
+    "src": "images/sweet-wrapper.jpg",
     "rarity": 0
   },
   {
     "label": "Aluminium foil",
-    "img": "images/aluminium-foil.jpg",
+    "src": "images/aluminium-foil.jpg",
     "rarity": 0
   },
   {
     "label": "Food wrapper",
-    "img": "images/food-wrapper.jpg",
+    "src": "images/food-wrapper.jpg",
     "rarity": 0
   },
   {
     "label": "Receipt",
-    "img": "images/receipt.jpg",
+    "src": "images/receipt.jpg",
     "rarity": 0
   },
   {
     "label": "Juice carton",
-    "img": "images/juice-carton.jpg",
+    "src": "images/juice-carton.jpg",
     "rarity": 0
   },
   {
     "label": "Cardboard box",
-    "img": "images/cardboard-box.jpg",
+    "src": "images/cardboard-box.jpg",
     "rarity": 0
   },
   {
     "label": "Clothes",
-    "img": "images/clothes.jpg",
+    "src": "images/clothes.jpg",
     "rarity": 1
   },
   {
     "label": "Single glove",
-    "img": "images/glove.jpg",
+    "src": "images/glove.jpg",
     "rarity": 1
   },
   {
     "label": "Rubber glove",
-    "img": "images/rubber-glove.jpg",
+    "src": "images/rubber-glove.jpg",
     "rarity": 1
   },
   {
     "label": "Face mask",
-    "img": "images/face-mask.jpg",
+    "src": "images/face-mask.jpg",
     "rarity": 1
   },
   {
     "label": "Condom wrap",
-    "img": "images/condom-wrap.jpg",
+    "src": "images/condom-wrap.jpg",
     "rarity": 2
   },
   {
     "label": "Tissue",
-    "img": "images/tissue.jpg",
+    "src": "images/tissue.jpg",
     "rarity": 0
   },
   {
     "label": "Cutlery",
-    "img": "images/cutlery.jpg",
+    "src": "images/cutlery.jpg",
     "rarity": 1
   },
   {
     "label": "Balloon",
-    "img": "images/balloon.jpg",
+    "src": "images/balloon.jpg",
     "rarity": 2
   },
   {
     "label": "Cable tie",
-    "img": "images/cable-tie.jpg",
+    "src": "images/cable-tie.jpg",
     "rarity": 0
   },
   {
     "label": "Shopping bag",
-    "img": "images/shopping-bag.jpg",
+    "src": "images/shopping-bag.jpg",
     "rarity": 1
   },
   {
     "label": "Teabag",
-    "img": "images/teabag.jpg",
+    "src": "images/teabag.jpg",
     "rarity": 1
   },
   {
     "label": "Broken glass",
-    "img": "images/broken-glass.jpg",
+    "src": "images/broken-glass.jpg",
     "rarity": 0
   },
   {
     "label": "Money",
-    "img": "images/money.jpg",
+    "src": "images/money.jpg",
     "rarity": 2
   },
   {
     "label": "'Thank you'",
-    "img": "images/thanks.jpg",
+    "src": "images/thanks.jpg",
     "rarity": 1
   },
   {
     "label": "Car waste",
-    "img": "images/car-waste.jpg",
+    "src": "images/car-waste.jpg",
     "rarity": 1
   },
   {
     "label": "Vape",
-    "img": "images/vape.jpg",
+    "src": "images/vape.jpg",
     "rarity": 1
   },
   {
     "label": "Capri sun",
-    "img": "images/capri-sun.jpg",
+    "src": "images/capri-sun.jpg",
     "rarity": 0
   },
   {
     "label": "Car buying card",
-    "img": "images/car-buying-card.jpg",
+    "src": "images/car-buying-card.jpg",
     "rarity": 0
   },
   {
     "label": "Laughing gas",
-    "img": "images/laughing-gas.jpg",
+    "src": "images/laughing-gas.jpg",
     "rarity": 2
   },
   {
     "label": "Blank cartridge",
-    "img": "images/blank-cartridge.jpg",
+    "src": "images/blank-cartridge.jpg",
     "rarity": 1
   },
   {
     "label": "'Surprise' bag",
-    "img": "images/surprise-bag.jpg",
+    "src": "images/surprise-bag.jpg",
     "rarity": 1
   }
 ]

@@ -164,9 +164,9 @@ function shuffleCells() {
   card.forEach((item, i) => {
     const cell = document.getElementById("cell" + String(i));
     // update image
-    if (item.img) {
+    if (item.src) {
       const img = cell.querySelector("img");
-      img.src = item.img;
+      img.src = item.src;
       img.alt = item.label;
     }
     // update label
