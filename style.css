@@ -48,16 +48,6 @@ body {
   padding: 5px 5px;
 }
 
-header {
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-header h1 {
-  font-size: xxx-large;
-  color: var(--main-header-color);
-}
-
 /* bingo card */
 
 .card-wrapper {
