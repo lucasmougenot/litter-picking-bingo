@@ -109,6 +109,7 @@ body {
   padding: 3px;
   transition: all 0.1s ease;
   user-select: none;
+  -webkit-user-select: none;
   overflow: hidden;
 }
 
@@ -166,6 +167,7 @@ button {
   cursor: pointer;
   transition: all 0.2s;
   user-select: none;
+  -webkit-user-select: none; 
 }
 
 .btn-shuffle {
@@ -188,6 +190,7 @@ button {
   gap: 0.4rem;
   cursor: pointer;
   user-select: none;
+  -webkit-user-select: none;
 }
 
 /* hide the default checkbox visually but keep it accessible */
