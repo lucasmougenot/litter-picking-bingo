@@ -128,8 +128,7 @@ function fillCardRarity() {
 }
 
 function generateCard() {
-  document.getElementById("winBanner").style.display = "none";
-  marked = new Array(BINGO_CARD_SIZE).fill(false);
+  resetMarks()
   if (shuffle_mode === ShuffleMode.Rarity)
     fillCardRarity();
   else
