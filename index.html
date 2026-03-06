@@ -12,28 +12,131 @@
 <body>
   <header>
   </header>
-  <div class="card-wrapper">
-    <div class="bingo-header">
-      <div class="bingo-letter">B</div>
-      <div class="bingo-letter">I</div>
-      <div class="bingo-letter">N</div>
-      <div class="bingo-letter">G</div>
-      <div class="bingo-letter">O</div>
+  <main>
+    <div class="card-wrapper">
+      <div class="bingo-header">
+        <div class="bingo-letter">B</div>
+        <div class="bingo-letter">I</div>
+        <div class="bingo-letter">N</div>
+        <div class="bingo-letter">G</div>
+        <div class="bingo-letter">O</div>
+      </div>
+      <div class="bingo-grid" id="grid">
+        <div id="cell0" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell1" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell2" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell3" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell4" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell5" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell6" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell7" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell8" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell9" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell10" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell11" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell12" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell13" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell14" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell15" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell16" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell17" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell18" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell19" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell20" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell21" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell22" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell23" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+        <div id="cell24" class="cell">
+          <img class="tile-img" src="" alt="">
+          <span class="tile-label"></span>
+        </div>
+      </div>
+      <div class="win-banner" id="winBanner">🗑️ BIN-GO! 🏆</div>
+      <div class="controls">
+        <button class="btn-shuffle">New</button>
+        <button class="btn-reset">Reset</button>
+        <label class="switch">
+          <input type="checkbox" id="rarity-switch" checked />
+          <span class="track">
+            <span class="thumb"></span>
+          </span>
+          Rarity
+        </label>
+      </div>
     </div>
-    <div class="bingo-grid" id="grid"></div>
-    <div class="win-banner" id="winBanner">🗑️ BIN-GO! 🏆</div>
-    <div class="controls">
-      <button class="btn-shuffle">New</button>
-      <button class="btn-reset">Reset</button>
-      <label class="switch">
-        <input type="checkbox" id="rarity-switch" checked />
-        <span class="track">
-          <span class="thumb"></span>
-        </span>
-        Rarity
-      </label>
-    </div>
-  </div>
+  </main>
   <footer>Click a square to mark it found</footer>
   <script src="bingo.js" type="module"></script>
 </body>
