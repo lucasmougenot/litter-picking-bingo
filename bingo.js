@@ -15,6 +15,8 @@ indices [0 - 24]
 |____|____|____|____|____|
 */
 
+const REPO_NAME = "litter-picking-bingo";
+
 // total amount of elements per card
 const BINGO_CARD_SIZE = 25;
 
@@ -188,6 +190,14 @@ function addListeners() {
   for (let i = 0; i < BINGO_CARD_SIZE; i++) {
     const cell = document.getElementById("cell" + String(i));
     cell.onclick = () => toggleCell(i);
+  }
+  // service worker for offline/caching
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register(`/${REPO_NAME}/sw.js`, {
+        scope: `/${REPO_NAME}/`
+      });
+    });
   }
 }
 
