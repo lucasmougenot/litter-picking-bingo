@@ -1,6 +1,6 @@
 const REPO_NAME = "litter-picking-bingo";
 // TODO: UPDATE CACHE ON EVERY PUSH!
-const CACHE = "LPB-2026-03-06-v2";
+const CACHE = "LPB-2026-03-06-v3";
 const ASSETS = [
     `/${REPO_NAME}/`,
     `/${REPO_NAME}/index.html`,
@@ -25,20 +25,15 @@ self.addEventListener("activate", e => {
 });
 
 self.addEventListener("fetch", e => {
-  console.log("SW fetching:", e.request.url);
-  e.respondWith(
-    caches.match(e.request).then(r => {
-      if (r) {
-        console.log("SW serving from cache:", e.request.url);
-        return r;
-      }
-      return fetch(e.request).then(response => {
-        return caches.open(CACHE).then(cache => {
-          cache.put(e.request, response.clone());
-          console.log("SW cached:", e.request.url);
-          return response;
-        });
-      });
-    })
-  );
+    console.log("SW fetching:", e.request.url);
+    e.respondWith(
+        caches.match(e.request).then(r => {
+            return r || fetch(e.request).then(response => {
+                return caches.open(CACHE).then(cache => {
+                    cache.put(e.request, response.clone());
+                    return response;
+                });
+            });
+        })
+    );
 });
