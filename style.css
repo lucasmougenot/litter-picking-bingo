@@ -35,6 +35,16 @@
   .cell:hover .tile-label {
     opacity: 1;
   }
+
+  .btn-shuffle:hover {
+    background: var(--shuffle-button-hover);
+    transform: translateY(-1px);
+  }
+
+  .btn-reset:hover {
+    background: var(--reset-button-bg-hover);
+    transform: translateY(-1px);
+  }
 }
 
 body {
@@ -163,20 +173,10 @@ button {
   color: white;
 }
 
-.btn-shuffle:hover {
-  background: var(--shuffle-button-hover);
-  transform: translateY(-1px);
-}
-
 .btn-reset {
   background: var(--reset-button-bg);
   color: var(--bg-dark-green);
   border: 2px solid var(--reset-button-border);
-}
-
-.btn-reset:hover {
-  background: var(--reset-button-bg-hover);
-  transform: translateY(-1px);
 }
 
 .switch {
