@@ -134,7 +134,7 @@ function generateCard() {
     fillCardRarity();
   else
     fillCardRandom();
-  initCells();
+  shuffleCells();
 }
 
 function resetMarks() {
@@ -160,40 +160,38 @@ function toggleCell(i) {
     document.getElementById("winBanner").style.display = "none";
 }
 
-function initCells() {
-  const grid = document.getElementById("grid");
-  grid.innerHTML = "";
+function shuffleCells() {
   card.forEach((item, i) => {
-    const cell = document.createElement("div");
-    cell.className = "cell";
-    cell.id = "cell" + String(i);
-
+    const cell = document.getElementById("cell" + String(i));
+    // update image
     if (item.img) {
-      const img = document.createElement("img");
+      const img = cell.querySelector("img");
       img.src = item.img;
-      img.className = "tile-img";
-      cell.appendChild(img);
+      img.alt = item.label;
     }
-
-    const label = document.createElement("span");
-    label.className = "tile-label";
+    // update label
+    const label = cell.querySelector("span");
     label.textContent = item.label;
-    cell.appendChild(label);
-
-    cell.onclick = () => toggleCell(i);
-    grid.appendChild(cell);
   });
 }
 
+function addListeners() {
+  document.querySelector(".btn-shuffle").addEventListener("click", generateCard);
+  document.querySelector(".btn-reset").addEventListener("click", resetMarks);
+  document.getElementById("rarity-switch").addEventListener("change", (e) => {
+    if (e.target.checked)
+      shuffle_mode = ShuffleMode.Rarity;
+    else
+      shuffle_mode = ShuffleMode.Random;
+  });
+  for (let i = 0; i < BINGO_CARD_SIZE; i++) {
+    const cell = document.getElementById("cell" + String(i));
+    cell.onclick = () => toggleCell(i);
+  }
+}
+
 // add listeners
-document.querySelector(".btn-shuffle").addEventListener("click", generateCard);
-document.querySelector(".btn-reset").addEventListener("click", resetMarks);
-document.getElementById("rarity-switch").addEventListener("change", (e) => {
-  if (e.target.checked)
-    shuffle_mode = ShuffleMode.Rarity;
-  else
-    shuffle_mode = ShuffleMode.Random;
-});
+addListeners();
 
 // generate the bingo card
 generateCard();
