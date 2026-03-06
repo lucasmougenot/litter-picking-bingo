@@ -148,10 +148,10 @@ header h1 {
 /* controls */
 
 .controls {
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 button {
@@ -243,11 +243,11 @@ input:focus-visible+.track {
 
 .win-banner {
   display: none;
-  margin-top: 20px;
+  margin-top: 10px;
   background: linear-gradient(135deg, #ffd600, #ffab00);
   color: black;
   text-align: center;
-  padding: 16px;
+  padding: 10px;
   border-radius: 12px;
   font-size: x-large;
   font-weight: 800;
