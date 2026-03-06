@@ -7,7 +7,7 @@
     "theme_color": "#2e7d32",
     "icons": [
         {
-            "src": "/icons/icon.svg",
+            "src": "/litter-picking-bingo/icons/icon.svg",
             "sizes": "any",
             "type": "image/svg+xml",
             "purpose": "any"
