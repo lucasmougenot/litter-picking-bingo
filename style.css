@@ -25,6 +25,18 @@
   padding: 0;
 }
 
+/* hover not on mobile */
+@media (hover: hover) {
+  .cell:hover {
+    border-color: var(--cell-border-hover);
+    transform: scale(1.03);
+  }
+
+  .cell:hover .tile-label {
+    opacity: 1;
+  }
+}
+
 body {
   min-height: 100dvh;
   /*100% dynamic viewport height */
@@ -120,20 +132,11 @@ header h1 {
   opacity: 0;
 }
 
-.cell:hover {
-  border-color: var(--cell-border-hover);
-  transform: scale(1.03);
-}
-
 .cell.marked {
   border-color: var(--cell-border-hover);
   background-color: var(--bg-dark-green);
   /* make text vertically centered */
   align-items: center;
-}
-
-.cell:hover .tile-label {
-  opacity: 1;
 }
 
 .cell.marked .tile-label {
