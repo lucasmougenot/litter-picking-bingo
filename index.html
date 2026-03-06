@@ -3,15 +3,14 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>Litter Picking Bingo</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <header>
-    <h1>🧹 Litter Picking Bingo 🗑️</h1>
-    <p>Mark items as you find them. Get 5 in a row to win!</p>
+    <h1>Go 🗑️</h1>
   </header>
   <div class="card-wrapper">
     <div class="bingo-header">
@@ -22,20 +21,20 @@
       <div class="bingo-letter">O</div>
     </div>
     <div class="bingo-grid" id="grid"></div>
-    <div class="win-banner" id="winBanner">🏆 BINGO! Great picking! 🌲</div>
+    <div class="win-banner" id="winBanner">🗑️ BIN-GO! 🏆</div>
     <div class="controls">
-      <button class="btn-shuffle">🔀 New Card</button>
-      <button class="btn-reset">↺ Reset Marks</button>
+      <button class="btn-shuffle">New</button>
+      <button class="btn-reset">Reset</button>
       <label class="switch">
         <input type="checkbox" id="rarity-switch" checked />
         <span class="track">
           <span class="thumb"></span>
         </span>
-        Enable Rarities
+        Rarity
       </label>
     </div>
   </div>
-  <footer>Click a square to mark it found · Click a marked square to unmark it</footer>
+  <footer>Click a square to mark it found</footer>
   <script src="bingo.js" type="module"></script>
 </body>
 
