@@ -42,6 +42,16 @@ const Rarities = {
   Rare: 2
 }
 
+// service worker for offline/caching
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register(`/${REPO_NAME}/sw.js`, {
+      scope: `/${REPO_NAME}/`
+    }).then(() => console.log("SW registered"))
+      .catch(e => console.error("SW failed", e));
+  });
+}
+
 const res = await fetch("items.json");
 // item data
 const ITEMS = await res.json();
@@ -195,16 +205,6 @@ function addListeners() {
 
 // add listeners
 addListeners();
-
-// service worker for offline/caching
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register(`/${REPO_NAME}/sw.js`, {
-      scope: `/${REPO_NAME}/`
-    }).then(() => console.log("SW registered"))
-      .catch(e => console.error("SW failed", e));
-  });
-}
 
 // generate the bingo card
 generateCard();
