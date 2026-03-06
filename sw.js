@@ -5,7 +5,7 @@ const ASSETS = [
   `/${REPO_NAME}/`,
   `/${REPO_NAME}/index.html`,
   `/${REPO_NAME}/style.css`,
-  `/${REPO_NAME}/app.js`,
+  `/${REPO_NAME}/bingo.js`,
   `/${REPO_NAME}/items.json`,
 ];
 
