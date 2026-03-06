@@ -187,6 +187,7 @@ button {
   color: var(--shuffle-button-hover);
   gap: 0.4rem;
   cursor: pointer;
+  user-select: none;
 }
 
 /* hide the default checkbox visually but keep it accessible */
